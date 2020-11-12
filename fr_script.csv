@@ -1,0 +1,930 @@
+Begin Scene,,C101Pre
+Play Sound,,"scene_omen, loop, 2"
+Nathan Trucks,C101Pre_000000,"Un autre jour, la même merde..."
+Cliff Wells,C101Pre_000010,"Quoi, tu te plains ?"
+Thomas Grail,C101Pre_000020,"Oui, je pensais que tu aimais ça."
+,C101Pre_000030,Pourquoi t’être réengagé ?
+Nathan Trucks,C101Pre_000040,Je me suis réengagé parce que Je ne supporte pas les civils.
+Thomas Grail,C101Pre_000050,"Qu'est-ce qui ne va pas avec..."
+Stop Sound,,"scene_omen, 5"
+Lou Rapp,C101Pre_000060,"Fermez-la, bande de cons."
+,C101Pre_000070,Concentrez-vous sur l'exercice.
+Thomas Grail,C101Pre_000080,"Oui monsieur !"
+Nathan Trucks,C101Pre_000090,Suivez-moi et tout ira bien.
+,C101Pre_000100,Je pourrais faire ça en dormant.
+,,
+Begin Scene,,C101Post
+Play Sound,,"siren, 2"
+Cliff Wells,C101Post_000000,"Et, merde."
+Play Sound,,jeep_enter
+Play Animation Delay,,"1, 50"
+John Taber,C101Post_000010,Attention! Nous sommes en état d'alerte !
+Play Sound,,jeep_exit
+Play Animation Delay,,"70, 95"
+Lou Rapp,C101Post_000020,Bougez-vous le cul et préparez-vous à être déployés.
+Play Animation,,"1, 1"
+Thomas Grail,C101Post_000030,Déployer ? Déployer où ?
+David Guerrero,C101Post_000040,"A ton avis, Grail."
+Thomas Grail,C101Post_000050,"Humm, je n'aime pas ça."
+Nathan Trucks,C101Post_000060,Comment ne pas aimer ?
+,C101Post_000070,Ah... enfin un peu d'action.
+,,
+Begin Scene,,C102Pre
+Play Sound,,"scene_urgency, loop, 2"
+Play Sound,,"apc_loop, loop, 2"
+Thomas Grail,C102Pre_000000,C'est de la folie. Qu'est-ce qui se passe, putain ?
+David Guerrero,C102Pre_000010,Tu continues à agir comme si c'était important.
+Cliff Wells,C102Pre_000020,"Huh. Ce n'est pas un exercice."
+Thomas Grail,C102Pre_000030,Vous pensez que l'on a parcouru combien de kilomètres ?
+Nathan Trucks,C102Pre_000040,Mm. Nous sommes proches.
+Thomas Grail,C102Pre_000050,Proche de quoi ?
+Nathan Trucks,C102Pre_000060,"Je le sens."
+,C102Pre_000070,Ça va être la merde.
+Cliff Wells,C102Pre_000080,Observez le attentivement.
+,C102Pre_000090,"Ce mec est revenu du Vietnam, maintenant c'est un prophète de guerre."
+David Guerrero,C102Pre_000100,"Laissez tomber."
+Nathan Trucks,C102Pre_000110,Ignorez-moi et faites-vous massacrer si vous voulez.
+,C102Pre_000120,J'en ai rien à foutre.
+,,
+Begin Scene,,C102Post
+Play Sound,,"scene_omen, loop, 2"
+Play Sound,,"distant_battle, loop, 2"
+Cliff Wells,C102Post_000000,Sarge! We got Ivan over here.
+Lou Rapp,C102Post_000010,Dead?
+Cliff Wells,C102Post_000020,Looks live enough to me…
+Lou Rapp,C102Post_000030,Lemme see him.
+Play Animation Delay,,"6, 13"
+Lou Rapp (Moved),,…
+Enemy Officer (Armor),C102Post_000040,…
+Lou Rapp (Moved),C102Post_000050,…
+Enemy Officer (Armor),C102Post_000060,…
+Lou Rapp (Moved),C102Post_000070,"Yeah, fuck you too."
+John Taber,C102Post_000080,"Radio, get someone to pick him up."
+,C102Post_000090,We need to keep moving.
+Play Animation,,"21, 21"
+Delay,,1
+Play Animation,,"13, 13"
+Delay,,0.5
+Play Sound,,jeep_enter
+Play Animation Delay,,"39, 68"
+Delay,,1
+Play Animation Delay,,"71, 78"
+Delay,,1.5
+Play Animation Delay,,"82, 89"
+Delay,,1.5
+Play Sound,,jeep_exit
+Play Animation Delay,,"95, 133"
+Delay,,1.25
+Thomas Grail,C102Post_000100,"Fuck, did you see that? He looked American."
+,C102Post_000110,We got sleeper agents here?
+,C102Post_000120,Or… Canada? Did Canada go red?
+Stop Sound,,"scene_omen, 5"
+Lou Rapp (Moved),C102Post_000130,Private.
+David Guerrero,C102Post_000140,Let’s go.
+Nathan Trucks,C102Post_000150,Heh. What did I tell you?
+Thomas Grail,C102Post_000160,"Don’t talk to me, old man."
+,,
+Begin Scene,,C111Post
+Play Sound,,"scene_omen, loop, 2"
+Delay,,1
+Play Animation Delay,,"1, 70"
+Delay,,1
+Tobias Bray,C111Post_000000,Smoke?
+Enemy Officer,C111Post_000010,"I do, sir, but I don’t need one now."
+Tobias Bray,C111Post_000020,Heh. First time I’ve been called “sir” by an EPW…
+,C111Post_000030,So you know why we’re here.
+Enemy Officer,C111Post_000040,"I do, sir."
+Tobias Bray,C111Post_000050,"Might as well make this easy on both of us, then."
+,C111Post_000060,Your ID is obviously fake.
+,C111Post_000070,So. Where do you really come from?
+Nicholas Strow,C111Post_000080,"My ID is real, sir. I’m First Lieutenant Nick Strow."
+,C111Post_000090,And I’m from the United States of America.
+Stop Sound,,"scene_omen, 3"
+,C111Post_000100,Just like you.
+,,
+Begin Scene,,C112Post
+Play Sound,,"distant_battle, loop, 2"
+Play Sound,,"scene_worry, loop, 2"
+Thomas Grail,C112Post_000000,Hey…
+,C112Post_000010,You guys seeing what I’m seeing here?
+David Guerrero,C112Post_000020,"Too many questions, Grail."
+Cliff Wells,C112Post_000030,Yeah… those are U.S. Army.
+,C112Post_000040,They’re using our own equipment against us.
+Nathan Trucks,C112Post_000050,Attack from the inside…
+,C112Post_000060,Always knew it was gonna go this way.
+,C112Post_000070,The Russians got cells in every city.
+Thomas Grail,C112Post_000080,We put our guys in Germany and now they pop up here…
+,C112Post_000090,Middle of the country. God dammit!
+,C112Post_000100,How did we let this happen?
+Nathan Trucks,C112Post_000110,Don’t know. Don’t care.
+,C112Post_000120,Long as I can shoot more Ivans I’m good.
+Cliff Wells,C112Post_000130,"Not sure that’s what we’re doing, boss…"
+,,
+Begin Scene,,C113Post
+Play Sound,,"rain_loop, loop, 2"
+Play Sound,,"scene_omen, loop, 2"
+Tobias Bray,C113Post_000000,You expect me to believe this story?
+Nicholas Strow,C113Post_000010,"I don’t expect anything from you, sir."
+Tobias Bray,C113Post_000020,"I’m going to ask you directly, Lieutenant."
+,C113Post_000030,Why the attack?
+,C113Post_000040,Why not just come over and ask for help?
+,C113Post_000050,Ask your fellow Americans.
+,C113Post_000060,We’re nice people.
+,C113Post_000070,"Nice to our friends, at least."
+Nicholas Strow,C113Post_000080,"The answer to that’s above my pay grade, sir."
+Tobias Bray,C113Post_000090,You know there’s no way to win this.
+,C113Post_000100,"Aside from the element of surprise, you’re at a major disadvantage."
+Stop Sound,,"scene_omen, 5"
+Nicholas Strow,C113Post_000110,"This isn’t about winning, sir."
+,C113Post_000120,It’s about survival.
+,,
+Begin Scene,,C121Post
+Play Sound,,"distant_battle, loop, 2"
+Play Sound,,"scene_worry, loop, 2"
+Thomas Grail,C121Post_000000,"Fuck, man."
+David Guerrero,C121Post_000010,You alright?
+Thomas Grail,C121Post_000020,This fucking guy tried to kill me.
+,C121Post_000030,"It’s messed up, man. Didn’t sound Russian at all…"
+Cliff Wells,C121Post_000050,Do you even know what Russian sounds like?
+Thomas Grail,C121Post_000060,Sounded like a guy I know from Abilene.
+,C121Post_000070,Just… some guy.
+Nathan Trucks,C121Post_000080,"You know that’s treason, right?"
+,C121Post_000090,I’m gonna kill every last one of these motherfuckers.
+Cliff Wells,C121Post_000100,"Yeah, all by yourself."
+Nathan Trucks,C121Post_000110,Least I’m doing something.
+,C121Post_000120,Didn’t hear you fire a single shot back there.
+Stop Sound,,"scene_worry, 3"
+Cliff Wells,C121Post_000130,Well then your eardrums don’t work.
+,C121Post_000140,"Musta blown ‘em out in ‘Nam, along with your nuts."
+Thomas Grail,C121Post_000150,Pfff— hahahaha.
+Nathan Trucks,C121Post_000160,Yeah. Real funny.
+,,
+Begin Scene,,C122Post
+Play Sound,,"scene_omen, loop, 2"
+Play Sound,,"rain_loop, loop, 2"
+Tobias Bray,C122Post_000000,"Do you consider yourself a loyal man, Lieutenant?"
+Nicholas Strow,C122Post_000010,"I do, sir."
+Tobias Bray,C122Post_000020,Loyal to your country?
+Nicholas Strow,C122Post_000030,"Yes, sir."
+Tobias Bray,C122Post_000040,Earlier you said this was about survival.
+,C122Post_000050,Are you talking about the survival of your country?
+Nicholas Strow,C122Post_000060,…
+Tobias Bray,C122Post_000070,Maybe you want that cigarette about now.
+Nicholas Strow,C122Post_000080,…
+,C122Post_000090,"Yes, sir."
+,,
+Begin Scene,,C123Post
+Play Sound,,"scene_urgency, loop, 2"
+John Taber,C131Post_000000,"Well, shit."
+,C131Post_000010,"We got those SAM sites cleared, but air support’s still a no-go."
+,C131Post_000020,"Apparently the enemy’s flying Phantoms too, so nobody can tell them apart."
+,C131Post_000030,It’s just my luck to be in some kind of crazy mess like this.
+,C131Post_000040,"You ever think something like this would happen, Sergeant?"
+Lou Rapp,C131Post_000050,"It’s my duty to be prepared for anything, sir."
+John Taber,C131Post_000060,"Yeah, well, this just takes the cake."
+,C131Post_000070,"Frustrating, you know? Just… frustrating."
+Stop Sound,,"scene_urgency, 3"
+Lou Rapp,C131Post_000080,"Don’t forget the men from the First, sir."
+,C131Post_000090,We’re meeting at 1600 hours.
+John Taber,C131Post_000100,"Right, right."
+,C131Post_000110,"Well, maybe they have a better idea what’s going on here."
+,,
+Begin Scene,,C131Post
+Play Sound,,"scene_motivation, loop, 2"
+Cliff Wells,C123Post_000000,"Wow, see those guys? They’re from Fort Riley."
+,C123Post_000010,"Yeah, they’re stepping it up."
+Thomas Grail,C123Post_000020,Reinforcements. Finally.
+Nathan Trucks,C123Post_000030,Hmpf. The “Fighting First.”
+,C123Post_000040,"Got in a fight with two of them, once."
+Cliff Wells,C123Post_000050,Mmhm. Is that how you lost your nuts?
+Thomas Grail,C123Post_000060,Pfff— hahahaha.
+Stop Sound,,"scene_motivation, 3"
+Nathan Trucks,C123Post_000070,You want your ass kicked too? ‘Cause I can arrange that.
+Cliff Wells,C123Post_000090,"Oh, I’m all good, boss."
+,,
+Begin Scene,,C132Post
+Play Sound,,"killing_time, loop, 2"
+Cliff Wells,C132Post_000000,Hey. Trade you for that.
+Thomas Grail,C132Post_000010,The cookie?
+Cliff Wells,C132Post_000020,"No, the applesauce."
+Thomas Grail,C132Post_000030,You want the applesauce?
+Play Animation,,"2, 124"
+Nathan Trucks,C132Post_000040,These MREs are bullshit.
+,C132Post_000050,I miss C-rats.
+Thomas Grail,C132Post_000060,You sure you don’t just miss the cigarettes?
+Cliff Wells,C132Post_000070,"MREs are good eating, man."
+Thomas Grail,C132Post_000080,Seriously?
+Cliff Wells,C132Post_000090,Trade you some freeze dried potato?
+Thomas Grail,C132Post_000100,"Just… here, take it."
+,,
+Begin Scene,,C133Post
+Play Sound,,"scene_devastation, loop, 2"
+Play Sound,,"rain_loop, loop, 2"
+Tobias Bray,C133Post_000000,We’ve heard from your leaders… they told us quite a story.
+,C133Post_000010,Your world was dying.
+,C133Post_000020,So you came here.
+,C133Post_000030,Something about using a quantum gate?
+Nicholas Strow,C133Post_000040,…
+Tobias Bray,C133Post_000050,"It must have been hard, what happened to your Earth."
+Nicholas Strow,C133Post_000060,Sure. It was.
+Tobias Bray,C133Post_000070,Was it a war?
+Nicholas Strow,C133Post_000080,…
+Tobias Bray,C133Post_000090,Nuclear war?
+Stop Sound,,"scene_devastation, 3"
+Nicholas Strow,C133Post_000100,"No, no. Not that."
+,C133Post_000110,"I almost wish it was, instead of…"
+,C133Post_000120,Instead of what actually happened.
+,,
+Begin Scene,,C211Pre
+Play Sound,,"jeep_loop, loop, 2"
+Play Sound,,"scene_urgency, loop, 2"
+Play Sound,,"jeep_bump, 0, 2.5"
+Play Animation Delay,,"60, 127"
+Loop Animation,,"128, 143"
+Benjamin Dancer,C211Pre_000000,Goddammit!
+,C211Pre_000010,"You don’t need to hit every hole in the road, trooper."
+Danny Portela,C211Pre_000020,"Sorry, sir!"
+Benjamin Dancer,C211Pre_000030,Gonna be sorer than a pig that lost a shit-eating contest.
+Danny Portela,C211Pre_000040,"I’ll try to avoid them, sir."
+Benjamin Dancer,C211Pre_000050,"No, don’t slow down! Ivan’ll notice us any moment now."
+,C211Pre_000060,Reconnoitering point should be about two klicks out.
+,C211Pre_000070,Ready to pop the lid on whatever these fuckos are hiding?
+Danny Portela,C211Pre_000080,"Sir, yes sir!"
+,,
+Begin Scene,,C211Post
+Delay,,0.01
+Play Sound,,jeep_enter
+Play Animation Delay,,"1, 41"
+Delay,,1
+Play Sound,,"scene_omen, loop, 2"
+Benjamin Dancer,C211Post_000000,Well I’ll be fucked harder than a spatchcocked turkey.
+,C211Post_000010,"You ever see anything like that, private?"
+Danny Portela,C211Post_000020,No sir.
+,C211Post_000030,"It looks… like nothing, sir."
+Benjamin Dancer,C211Post_000040,It looks like a whole goddamn lot of nothing.
+,C211Post_000050,Tar your breeches. We’re going in.
+Stop Sound,,"scene_omen, 3"
+Danny Portela,C211Post_000060,"Into that, sir?"
+Benjamin Dancer,C211Post_000070,"That’s right, trooper. Step on it!"
+Danny Portela,C211Post_000080,Yes sir!
+Play Sound,,jeep_exit
+Play Animation Delay,,"42, 62"
+,,
+Begin Scene,,C212Post
+Benjamin Dancer,C212Post_000000,We ain’t in Kansas anymore…
+Danny Portela,C212Post_000010,"Uh, sir, we were in Wisconsin?"
+Benjamin Dancer,C212Post_000020,"That was a quote, dumbass."
+,C212Post_000030,What kind of uneducated rube hasn’t seen Wizard of Oz?
+Danny Portela,C212Post_000040,"Sorry, sir."
+Play Sound,,"scene_omen, loop, 5"
+Benjamin Dancer,C212Post_000050,Look at this place. It’s a god damned hellhole.
+,C212Post_000060,What kind of fucked-up water is that?
+Danny Portela,C212Post_000070,"I— I don’t know, sir."
+Benjamin Dancer,C212Post_000080,Looks like transmission fluid a dog threw up.
+,C212Post_000090,Your dog ever drink transmission fluid?
+Stop Sound,,"scene_omen, 2"
+,C212Post_000100,Don’t answer that. Keep moving.
+Danny Portela,C212Post_000110,Yes sir.
+Play Sound,,jeep_exit
+Play Animation Delay,,"2, 34"
+,,
+Begin Scene,,C213Post
+Play Sound,,"scene_omen, loop, 2"
+Benjamin Dancer,C213Post_000000,Well. I’ll be more fucked than an Amsterdam whorehouse on discount day.
+,C213Post_000010,…
+,C213Post_000020,"Quit wheezing, trooper."
+,C213Post_000030,I don’t know what the fuck’s going on but I’ll be damned if we act like it.
+Danny Portela,C213Post_000040,Fuck… no wonder they wanna come here so bad.
+,C213Post_000050,Their whole world’s gone to shit!
+Benjamin Dancer,C213Post_000060,Likely ours will too if we don’t act fast.
+,C213Post_000070,Put me through to command. They need to hear about this ASAP.
+,C213Post_000080,No way we’re gonna let those things through.
+,,
+Begin Scene,,C221Pre
+Play Sound,,"scene_urgency, loop, 2"
+Play Sound,,"apc_loop, loop, 2"
+Play Sound,,"tracked_heavy_slow, 0, 2"
+Play Sound,,"tank_loop, loop, 3"
+Play Animation Delay,,"1, 90"
+Loop Animation,,"91, 180"
+Cliff Wells,C221Pre_000000,Check it out. Those guys are from the 2nd Armored.
+Thomas Grail,C221Pre_000010,Oh shit… an Abrams!
+Play Sound,,"tracked_heavy_fast, 0, 1"
+Stop Sound,,"tank_loop, 5"
+Play Animation Delay,,"181, 270"
+Loop Animation,,"271, 285"
+David Guerrero,C221Pre_000020,Finally. That’s gonna be a big help.
+Thomas Grail,C221Pre_000030,Yeah… unless they have the same thing.
+David Guerrero,C221Pre_000040,"Grail, you need to learn to stop thinking."
+,C221Pre_000050,Thinking never suits an infantryman.
+,C221Pre_000060,"Isn’t that right, Sergeant?"
+Lou Rapp,C221Pre_000070,Y’all need to shut the fuck up.
+David Guerrero,C221Pre_000080,See what I mean?
+,,
+Begin Scene,,C221Post
+Play Sound,,"apc_loop, loop, 2"
+Play Sound,,"scene_urgency, loop, 2"
+Play Sound,,"tracked_light_fast_long, 0"
+Play Animation Delay,,"1, 137"
+Loop Animation,,"138, 152"
+Cliff Wells,C221Post_000000,"Hey, they got Bradleys too."
+,C221Post_000010,Fancy little shits.
+Thomas Grail,C221Post_000020,Wish I was in one of those… instead of this fucking thing.
+Stop Sound,,"scene_urgency, 2"
+Play Animation,,"152, 152"
+Play Sound,,"detonate_debris, 0, 0.5"
+Delay,,1.5
+Play Animation Delay,,"153, 198"
+Loop Animation,,"199, 214"
+,C221Post_000030,Shit!
+Play Sound,,fire_fade
+Play Animation Delay,,"215, 295"
+Loop Animation,,"296, 311"
+Cliff Wells,C221Post_000040,Oh! God damn.
+,,
+Begin Scene,,C222Post
+Play Sound,,"apc_loop, loop, 2"
+Play Sound,,"scene_worry, loop, 2"
+Thomas Grail,C222Post_000000,Hey. Why do we still call ‘em Ivans even though we know they’re not Russians?
+,C222Post_000010,Is that official?
+David Guerrero,C222Post_000020,Heck if I know what’s official right now.
+,C222Post_000030,I’ve heard like three different ROEs in three days.
+Thomas Grail,C222Post_000040,"Yeah, are we even allowed to shoot them?"
+Cliff Wells,C222Post_000050,"I sure fucking hope so, seeing as that’s all we been doing for the last two weeks."
+Nathan Trucks,C222Post_000060,"It’s not that hard to figure out, dumbass."
+,C222Post_000070,"Guy tries to kill you, you kill him back."
+Thomas Grail,C222Post_000080,"This is different. I mean they’re kind of like… Americans, right?"
+,C222Post_000090,"To them, they’re the real Americans."
+Lou Rapp,C222Post_000100,"To us, they’re Ivans."
+,C222Post_000110,That’s all that matters.
+,,
+Begin Scene,,C223Post
+Play Sound,,"scene_motivation, loop, 2"
+John Taber,C223Post_000000,Air power. Finally!
+,C223Post_000010,Air superiority’s gonna be the key to turning this thing around.
+Lou Rapp,C223Post_000020,"If you say so, sir."
+John Taber,C223Post_000030,I do say so.
+,C223Post_000040,"Don’t underestimate air power, sergeant."
+,C223Post_000050,Future warfare’s going to be all about it.
+Lou Rapp,C223Post_000060,"That what they say at West Point, sir."
+John Taber,C223Post_000070,"Wouldn’t know, sergeant. Never went there."
+Lou Rapp,C223Post_000080,"Sorry for the assumption, sir."
+John Taber,C223Post_000090,I’ll let it slide. This time.
+,,
+Begin Scene,,C233Post
+Play Sound,,"rain_loop, loop, 2"
+Tobias Bray,C233Post_000000,"I’ll lay it out straight, Lieutenant."
+,C233Post_000010,We can’t help you unless we know the full story.
+,C233Post_000020,What destroyed your country?
+Nicholas Strow,C233Post_000030,Well…
+Play Sound,,"scene_devastation, loop, 2"
+,C233Post_000040,We found their world.
+,C233Post_000050,They were dormant. Waiting.
+,C233Post_000060,Waiting for someone to open the next gate.
+,C233Post_000070,"We tried to study them, use them against themselves, but…"
+,C233Post_000080,It was already too late.
+,C233Post_000090,They’d already started… eating… everything.
+,C233Post_000100,We had no choice.
+Stop Sound,,"scene_devastation, 5"
+Tobias Bray,C233Post_000110,I see.
+,C233Post_000120,…
+,C233Post_000130,"Thank you, Lieutenant."
+,,
+Begin Scene,,C232Pre
+Play Sound,,"scene_motivation, loop, 2"
+Play Sound,,"helicopter_loop, loop, 2"
+Benjamin Dancer,C232Pre_000000,"Now don’t start driving ‘til the helicopter lands, got that?"
+Danny Portela,C232Pre_000010,"I got it, sir."
+Benjamin Dancer,C232Pre_000020,"I tell you, this one time this guy was itchin’ so hard to get out there he just gunned it way too soon."
+,C232Pre_000030,Helicopter’s wasn’t even close to landed.
+,C232Pre_000040,"He and the Jeep fall a hundred feet, maybe more."
+,C232Pre_000050,It was all bouncing on its tires and shit like— bwoump!
+Danny Portela,C232Pre_000060,Was he okay?
+Benjamin Dancer,C232Pre_000070,"No, he fucking died."
+,,
+Begin Scene,,C232Post
+Play Sound,,"scene_worry, loop, 2"
+Benjamin Dancer,C232Post_000000,"This is some real ass end of nowhere country, I tell you what."
+,C232Post_000010,Must get buried under ten feet of snow in the winter.
+Danny Portela,C232Post_000020,"It does, sir."
+Benjamin Dancer,C232Post_000030,"What, you from around here?"
+Danny Portela,C232Post_000040,"Escanaba, sir."
+Benjamin Dancer,C232Post_000050,Escanaba!
+Stop Sound,,"scene_worry, 3"
+,C232Post_000060,Home of… hell if I know.
+Danny Portela,C232Post_000070,"Not much, sir."
+,C232Post_000080,Not much.
+,,
+Begin Scene,,C241Pre
+Play Sound,,"plane_loop, loop, 2"
+Play Sound,,"scene_motivation, loop, 2"
+Paul DeMarco,C241Pre_000000,Lotta lakes and trees down there…
+,C241Pre_000010,It’s gonna be a real quagmire.
+Harry Blasco,C241Pre_000020,A real what?
+Thomas Alvarez,C241Pre_000030,"Doesn’t matter, long as we hit ‘em hard and fast."
+Paul DeMarco,C241Pre_000040,"That’s what I’m saying, sir."
+,C241Pre_000050,Maneuverability is a concern on this terrain.
+Thomas Alvarez,C241Pre_000060,"Nobody’s asking you to dance, private."
+,C241Pre_000070,"We drop in, drive up, and kick Ivan in the nuts."
+Harry Blasco,C241Pre_000080,Hell yeah. Death from above.
+Paul DeMarco,C241Pre_000090,"Yes, sir…"
+Thomas Alvarez,C241Pre_000100,Don’t call me sir. I work for a living.
+,,
+Begin Scene,,C241Post
+Play Sound,,"scene_urgency, loop, 2"
+Paul DeMarco,C241Post_000000,Damn. Glad ours still works…
+Ted Slutske,C241Post_000010,Maybe being dropped from a plane isn’t so good for the tank.
+Thomas Alvarez,C241Post_000020,A small number of Sheridans became inoperable after hitting the ground.
+,C241Post_000030,There’s reinforcements on the way.
+Paul DeMarco,C241Post_000040,They gonna drop the reinforcements too?
+Ted Slutske,C241Post_000050,Air Force special delivery…
+Harry Blasco,C241Post_000060,Hell yeah.
+,,
+Begin Scene,,C242Post
+Play Sound,,"tank_loop, loop, 2"
+Play Sound,,"scene_motivation, loop, 2"
+Ted Slutske,C242Post_000000,Fuck… my legs are fucking killing me.
+Paul DeMarco,C242Post_000010,I always thought you were tall for a tanker…
+Harry Blasco,C242Post_000020,You can always get out and walk.
+Ted Slutske,C242Post_000030,"I’m fine, I can deal with it!"
+Thomas Alvarez,C242Post_000040,"You better, ‘cause we aren’t close to finished here."
+,C242Post_000050,We’re the fucking 82nd. Tip of the spear.
+Harry Blasco,C242Post_000060,Hell yeah!
+,,
+Begin Scene,,C243Post
+Play Sound,,"distant_battle, loop, 2"
+Play Sound,,"killing_time, loop, 2"
+Play Animation,,"1, 56"
+Paul DeMarco,C243Post_000000,"God dammit, I always forget how much that thing kicks."
+,C243Post_000020,Feels like I’m being shot out of a cannon every time.
+Play Animation,,"57, 81"
+Thomas Alvarez,C243Post_000030,Love it. Lets you know you’re alive.
+Harry Blasco,C243Post_000040,Hell yeah.
+Paul DeMarco,C243Post_000050,Just don’t want my head to snap off in there.
+Play Animation,,"82, 113"
+Thomas Alvarez,C243Post_000060,Where’s Ted? He still with us?
+Ted Slutske,C243Post_000070,Yeah… my legs are just… I’m fine.
+Thomas Alvarez,C243Post_000080,Alright. Let’s keep moving!
+,,
+Begin Scene,,C251Pre
+Play Sound,,"scene_worry, loop, 2"
+Thomas Grail,C251Pre_000000,"When I get back home, first thing I’m gonna do is take a goddamn shower."
+,C251Pre_000010,I mean like a real fucking shower.
+Cliff Wells,C251Pre_000020,Oh yeah? Well I’m gonna have a big ol’ cookout.
+,C251Pre_000030,"All my friends, everyone from the neighborhood."
+,C251Pre_000040,We all gonna eat and eat ‘til we can’t eat no more.
+David Guerrero,C251Pre_000050,Heh.
+,C251Pre_000060,I’m gonna get back with my girl…
+Thomas Grail,C251Pre_000070,"Heh, heh, oh yeah…"
+David Guerrero,C251Pre_000080,She’s gonna have— by the time I’m done she’s having twins. Triplets.
+,C251Pre_000090,I promise. I promise.
+Thomas Grail,C251Pre_000100,(snickering)
+Nathan Trucks,C251Pre_000110,"I’m going to the liquor store, getting a bottle of Hennessy VSOP…"
+,C251Pre_000120,And I’m drinking that whooole bottle in one night.
+Stop Sound,,"scene_omen, 5"
+Cliff Wells,C251Pre_000130,"Cognac? What the fuck, man."
+Nathan Trucks,C251Pre_000140,What? It’s good stuff.
+Thomas Grail,C251Pre_000150,"Hey, whatever floats your boat, right."
+Cliff Wells,C251Pre_000160,Cognac. Alright.
+,,
+Begin Scene,,C251Post
+Play Sound,,"distant_battle, loop, 2"
+Play Sound,,"scene_omen, loop, 2"
+Thomas Grail,C251Post_000000,"God damn, they’re fighting hard."
+David Guerrero,C251Post_000010,Must be a lot at stake for them.
+Cliff Wells,C251Post_000020,"Hell, there’s a lot at stake for us too."
+Thomas Grail,C251Post_000030,Why don’t we just… let them stay?
+,C251Post_000040,We don’t bother them and they don’t bother us.
+Cliff Wells,C251Post_000050,"Look, you don’t know how many there are."
+,C251Post_000060,Where are they all gonna go?
+,C251Post_000070,You gonna just let ‘em stay at your house?
+Thomas Grail,C251Post_000080,"It just… feels bad, man."
+,C251Post_000090,Fuck this shit.
+,,
+Begin Scene,,C252Post
+Play Sound,,"scene_devastation, loop, 2"
+Play Sound,,"distant_battle, loop, 2"
+Cliff Wells,C252Post_000000,Man. Shootin’ Ivans all day and it feels like we ain’t doing shit.
+Nathan Trucks,C252Post_000010,Just gotta keep killin’ ‘em ‘til there’s none left.
+Thomas Grail,C252Post_000020,"Fuck, man, how can you say shit like that?"
+Nathan Trucks,C252Post_000030,Hey! I’m doing my job.
+,C252Post_000040,The fuck are you doing?
+,C252Post_000050,"If you don’t like it, leave. Go AWOL."
+,C252Post_000060,Or defect to those commie fucks if you love them so much.
+David Guerrero,C252Post_000070,We already established they’re not Communists.
+Nathan Trucks,C252Post_000080,You think I give a shit?
+,C252Post_000090,People like you are why Vietnam went the way it did.
+,C252Post_000100,"I’m not gonna let that happen again, you hear me?"
+Stop Sound,,"scene_devastation, 3"
+Thomas Grail,C252Post_000110,…
+David Guerrero,C252Post_000120,…
+Cliff Wells,C252Post_000130,"Alright, boss…"
+,,
+Begin Scene,,C253Post
+Play Sound,,"scene_motivation, loop, 2"
+John Taber,C253Post_000000,I really thought this would be over by now.
+,C253Post_000010,We’re the best military in the world but they’re hanging on somehow.
+,C253Post_000020,"It’s like every time we almost have them, they find some way to fuck us up."
+Lou Rapp,C253Post_000030,"Well they must have similar training, sir."
+,C253Post_000040,Maybe with some added motivation.
+John Taber,C253Post_000050,"Yeah, well, our boys better get motivated fast."
+,C253Post_000060,We’re going through the gate.
+Lou Rapp,C253Post_000070,Sir.
+John Taber,C253Post_000080,Word from command.
+,C253Post_000090,It’s not enough to push them back here.
+,C253Post_000100,As long as the quantum gates exist they’re a threat.
+,C253Post_000110,So… we’re gonna take ’em out.
+,,
+Begin Scene,,C311Pre
+Play Sound,,"jeep_loop, loop, 2"
+Play Sound,,"scene_urgency, loop, 2"
+Benjamin Dancer,C311Pre_000000,Gah. Knew they’d send us back to this piss-soaked shithole.
+,C311Pre_000010,Fuckin’ alien-infested clown town.
+,C311Pre_000020,Stank-ass doomsday dimension.
+Danny Portela,C311Pre_000030,Yes sir.
+Benjamin Dancer,C311Pre_000040,"All right, let’s get a move on and reconnoiter the hell outta this turd farm."
+,C311Pre_000050,Then they can blow the gates sky-high and we never have to come back again.
+Danny Portela,C311Pre_000060,Yes sir!
+,,
+Begin Scene,,C311Post
+Play Sound,,"scene_devastation, loop, 2"
+Play Sound,,"queen_appear, 0, 1.5"
+Delay,,3
+Benjamin Dancer,C311Post_000000,This whole fucking world is a grade-A shitshow. Did I mention that?
+Danny Portela,C311Post_000010,"I believe you have, sir."
+Benjamin Dancer,C311Post_000020,Acid lakes. Demon bee swarms.
+,C311Post_000030,"Those fucking… other things, whatever those are."
+,C311Post_000040,Can you imagine?
+Danny Portela,C311Post_000050,"We are seeing them, sir."
+Benjamin Dancer,C311Post_000060,"You ever think you’d be in a place like this when you enlisted, Danny?"
+Danny Portela,C311Post_000070,"No, sir."
+Benjamin Dancer,C311Post_000080,"That’s what I’m saying— beyond the imagination, eh?"
+,C311Post_000090,"Anyway, enough chit-chat. Ready and forward, trooper."
+Danny Portela,C311Post_000100,Ready and forward!
+Play Sound,,jeep_exit
+Play Animation Delay,,"2, 75"
+,,
+Begin Scene,,C312Post
+Play Sound,,"scene_urgency, loop, 2"
+Play Sound,,"jeep_loop, loop, 2"
+Benjamin Dancer,C312Post_000000,"Let’s keep up the speed, trooper."
+Jerome Sand,C312Post_000010,"My foot’s all the way down, sir."
+Benjamin Dancer,C312Post_000020,Well then this thing is a piece of shit.
+Jerome Sand,C312Post_000030,"No argument there, sir."
+Benjamin Dancer,C312Post_000040,…
+Jerome Sand,C312Post_000050,…
+Benjamin Dancer,C312Post_000060,Don’t worry about Danny. Likely he’s gone by now.
+Jerome Sand,C312Post_000070,"I know, sir."
+Benjamin Dancer,C312Post_000080,Yep. This place can go fuck itself.
+,C312Post_000090,Fuckity fuck fuck FUCK.
+,C312Post_000100,…
+,C312Post_000110,"Don’t swear, trooper."
+,C312Post_000120,It’s unbecoming.
+Jerome Sand,C312Post_000130,Yes sir.
+,,
+Begin Scene,,C313Post
+Play Sound,,"jeep_loop, loop, 2"
+Play Sound,,"scene_worry, loop, 2"
+Benjamin Dancer,C313Post_000000,Goddammit. Why does everything here stink to high heaven?
+Jerome Sand,C313Post_000010,"Don’t know, sir."
+Benjamin Dancer,C313Post_000020,"Smells like Uncle Petey’s rotten teeth, may he rest in peace."
+Jerome Sand,C313Post_000030,Yes sir.
+Benjamin Dancer,C313Post_000040,"I tell you, he’d try to talk to us sometimes…"
+,C313Post_000050,Was like we was being blasted with swamp gas. Eugh.
+Jerome Sand,C313Post_000060,"Sir, Cav Scouts are the eyes and ears of the Army, right?"
+,C313Post_000070,Nobody said anything about the nose…
+Benjamin Dancer,C313Post_000080,"That’s a good point, trooper."
+,C313Post_000090,Damn good point.
+,,
+Begin Scene,,C321Pre
+Play Sound,,"rain_loop, loop, 2"
+Play Sound,,"scene_omen, loop, 2"
+John Taber,C321Pre_000000,Never thought we’d be fighting on their side of the gate.
+,C321Pre_000010,"This really fucks with my plan, you know that?"
+Lou Rapp,C321Pre_000020,"Sir, I thought this always was the plan."
+John Taber,C321Pre_000030,Well nobody told me.
+,C321Pre_000040,We’ve lost the skies again. They can bomb us all they want here.
+Lou Rapp,C321Pre_000060,We can take care of that.
+John Taber,C321Pre_000070,"Soon, sergeant. We need to establish a beachhead first."
+,C321Pre_000080,This is a full-on invasion.
+,C321Pre_000090,"Goddammit, I never thought I’d see anything like this."
+,,
+Begin Scene,,C321Post
+Play Sound,,"rain_loop, loop, 2"
+Play Sound,,"scene_omen, loop, 2"
+Cliff Wells,C321Post_000000,Even food tastes like shit here.
+Thomas Grail,C321Post_000010,That the only thing bothering you about this place?
+,C321Post_000020,You don’t mind Ivan’s stronger than ever here?
+,C321Post_000030,"And that there’s also, you know, aliens, or whatever the fuck they are…"
+,C321Post_000040,And they’re both trying to kill us?
+David Guerrero,C321Post_000050,"No use stating the obvious, is there?"
+Cliff Wells,C321Post_000060,Man can’t eat his rations in peace…
+Thomas Grail,C321Post_000070,Peace? Peace?
+,C321Post_000080,What do you think this is?
+David Guerrero,C321Post_000090,"Leave him alone, Grail."
+Thomas Grail,C321Post_000100,"Sure, whatever."
+,C321Post_000110,Goddammit…
+,,
+Begin Scene,,C322Post
+Play Sound,,"distant_battle, loop, 2"
+Thomas Grail,C322Post_000000,"This place is fucked, man."
+,C322Post_000010,No wonder they were desperate enough to come over.
+Cliff Wells,C322Post_000020,They didn’t have to attack us.
+Play Sound,,"scene_devastation, loop, 2"
+Nathan Trucks,C322Post_000030,Sure they did.
+,C322Post_000040,The strong eat the weak. It’s how it is.
+,C322Post_000050,How do you think this country got started?
+David Guerrero,C322Post_000060,"Which country, ours or theirs?"
+Nathan Trucks,C322Post_000070,You fucks still think you’re the good guys?
+,C322Post_000080,That’s civilian thinking. Give me a fucking break.
+,C322Post_000090,"Everything we have, we took from someone else."
+,C322Post_000100,"And one day, someone’ll come along and take it from us."
+,C322Post_000110,That’s the fucking truth of the world.
+Stop Sound,,"scene_devastation, 5"
+Thomas Grail,C322Post_000120,…
+David Guerrero,C322Post_000130,…
+Thomas Grail,C322Post_000140,I wish I had a cigarette.
+,,
+Begin Scene,,C323Pre
+Play Sound,,"scene_motivation, loop, 2"
+Play Sound,,"helicopter_loop, loop, 2"
+Benjamin Dancer,C323Pre_000000,The history of the 10th Cavalry Regiment is filled with honor and sacrifice.
+,C323Pre_000010,We go in where other forces wouldn’t dare to tread.
+,C323Pre_000020,We stare into the face of the impossible and tell the impossible to go fuck itself.
+,C323Pre_000030,Today… today’s going to be another glory-filled day in the history of the Cav Scouts.
+,C323Pre_000040,The history books will remember our bravery and our valor.
+,C323Pre_000050,"Ready to earn those spurs, trooper?"
+Jerome Sand,C323Pre_000060,"Sir, yes sir!"
+,,
+Begin Scene,,C323Post
+Play Sound,,"scene_devastation, loop, 2"
+Play Sound,,"jeep_loop, loop, 2"
+Jerome Sand (Wounded),C323Post_000000,Ugh… I’m thirsty…
+Benjamin Dancer,C323Post_000010,"Now you hang in there, trooper, you hear me?"
+,C323Post_000020,We’re getting you out ASAP.
+Jerome Sand (Wounded),C323Post_000030,I’m thirsty…
+Benjamin Dancer,C323Post_000040,"We’re gonna go back through the gate right now, you hear?"
+,C323Post_000050,It’s all the nice clean water you can drink on the other side.
+Jerome Sand (Wounded),C323Post_000060,Urgh…
+Benjamin Dancer,C323Post_000070,"Big lakes of fresh water, the prettiest you ever saw."
+,C323Post_000080,"That’s right, trooper, it’s gonna be alright."
+,C323Post_000090,It’s all gonna be alright.
+,,
+Begin Scene,,C331Pre
+Play Sound,,"plane_loop, loop, 2"
+Play Sound,,"distant_thunder, loop, 2"
+Play Sound,,"scene_urgency, loop, 2"
+Thomas Alvarez,C331Pre_000000,"Gentlemen, the message from command is clear…"
+,C331Pre_000010,America is facing the greatest threat to its existence in history.
+,C331Pre_000020,Our mission is to secure vital assets that will ensure this threat is neutralized.
+,C331Pre_000030,We’re gonna make it so these ugly-ass bastards can never fuck with us again.
+Paul DeMarco,C331Pre_000040,"Ready to give these pieces of shit the hell they deserve, sir."
+Harry Blasco,C331Pre_000050,Hell yeah.
+Ted Slutske,C331Pre_000060,Let’s fucking do this!
+,,
+Begin Scene,,C331Post
+Play Sound,,"distant_battle, loop, 2"
+Play Sound,,"rain_loop, loop, 2"
+Play Sound,,"scene_omen, loop, 2"
+Propaganda Announcer,C331Post_000000,A message to the soldiers from the other side of the gate.
+,C331Post_000010,Look around.
+,C331Post_000020,You’ll see there’s nothing for you here.
+,C331Post_000030,Lay down your weapons. 
+,C331Post_000040,Surrender and we’ll return you to your world. 
+,C331Post_000050,"Why die here, so far from home?"
+,C331Post_000060,"You’re fighting for no reason, no point."
+Ted Slutske,C331Post_000070,Get a load of this bullshit.
+,C331Post_000080,They really expect us to believe them?
+Paul DeMarco,C331Post_000090,They attack us and then whine about it?
+,C331Post_000100,It’s just making me want to kill them more.
+Harry Blasco,C331Post_000110,Hell yeah.
+,C331Post_000120,They should answer for what they’ve done.
+Thomas Alvarez,C331Post_000130,Don’t let it distract you.
+Paul DeMarco,C331Post_000140,"I’m not distracted, sir, just fucking mad."
+Thomas Alvarez,C331Post_000150,"Well, the U.S. Army’s got no problem with that."
+,,
+Begin Scene,,C332Post
+Play Sound,,"rain_loop, loop, 2"
+Play Sound,,"tank_loop, loop, 2"
+Play Sound,,"jeep_loop, loop, 2"
+Thomas Alvarez,C332Post_000000,Stay glued to those trucks.
+,C332Post_000010,We need everyone in there alive.
+Paul DeMarco,C332Post_000020,Alive? Who are these guys?
+Thomas Alvarez,C332Post_000030,People who know how to make the gates…
+,C332Post_000040,And how to use them.
+Paul DeMarco,C332Post_000050,Well we better be dumping ‘em back here once we’re done with them.
+Ted Slutske,C332Post_000060,I don’t think they’re coming over just to be interrogated.
+,C332Post_000070,Look. Some of them have their families with them.
+Paul DeMarco,C332Post_000080,"Ah, shit."
+,C332Post_000090,Well I better not have to talk to any of them.
+,C332Post_000100,Don’t think I could stop my fist from lodging in their jaws…
+Harry Blasco,C332Post_000110,"Ha, yeah. Bam!"
+,,
+Begin Scene,,C333Post
+Play Sound,,"scene_devastation, loop, 2"
+Thomas Alvarez,C333Post_000000,Looks like they’re shipping out now.
+Play Sound,,"jeep_exit, 0, .1"
+Play Animation Delay,,"1, 32"
+Delay,,1
+Play Animation Delay,,"32, 40"
+Play Sound,,"wheel_heavy, 0, 1"
+Delay,,1
+Play Animation Delay,,"41, 71"
+Doppelganger,C333Post_000010,…
+Paul DeMarco,C333Post_000020,…
+Ted Slutske,C333Post_000030,"Hey, DeMarco. That guy…"
+Doppelganger,C333Post_000040,…
+Paul DeMarco,C333Post_000050,…
+Harry Blasco,C333Post_000060,Nah. That guy’s important.
+,C333Post_000070,Not like DeMarco here.
+Doppelganger,C333Post_000080,…
+Paul DeMarco,C333Post_000090,…
+Play Animation Delay,,"72, 80"
+Delay,,0.5
+Play Animation,,"81, 117"
+Play Sound,,wheel_light
+Delay,,0.5
+,C333Post_000100,Fucker.
+,C333Post_000110,Motherfucker.
+,,
+Begin Scene,,C341Pre
+Play Sound,,"scene_urgency, loop, 2"
+John Taber,C341Pre_000000,"Well, this is it. This is the final push."
+,C341Pre_000010,We clear a path for the boys from the Big Red One…
+,C341Pre_000020,Their ADM teams go in and destroy the gate generators.
+Lou Rapp,C341Pre_000030,"Nukes, sir?"
+John Taber,C341Pre_000040,That’s right.
+,C341Pre_000050,Can’t leave anything to chance.
+Lou Rapp,C341Pre_000060,And the engineers?
+John Taber,C341Pre_000070,We’ll remember them as heroes.
+Lou Rapp,C341Pre_000080,Yes sir.
+,,
+Begin Scene,,C341Post
+Play Sound,,"scene_devastation, loop, 2"
+Play Sound,,"rain_loop, loop, 2"
+Play Sound,,"distant_thunder, loop, 2"
+Nathan Trucks,C341Post_000000,Fuckers! All of ’em.
+,C341Post_000010,"All of you, too."
+,C341Post_000020,You’re all cowards and pieces of shit.
+Cliff Wells,C341Post_000030,"Easy there, boss."
+Nathan Trucks,C341Post_000040,I enlisted again because I couldn’t fucking stand civilians.
+,C341Post_000050,Turns out you’re all just as bad.
+Thomas Grail,C341Post_000060,What the fuck’s going on with Trucks?
+Nathan Trucks,C341Post_000070,You don’t get it! None of you fucking get it!
+David Guerrero,C341Post_000080,We don’t have time for this.
+,C341Post_000090,I’m calling the commander.
+,,
+Begin Scene,,C342Post
+Play Sound,,"rain_loop, loop, 2"
+Play Sound,,"distant_thunder, loop, 2"
+David Guerrero,C342Post_000000,…
+,C342Post_000010,Anyone see where Trucks went?
+,C342Post_000020,…
+,C342Post_000030,Fuck.
+Cliff Wells,C342Post_000040,"Woah, woah… what’s that I heard just now?"
+Thomas Grail,C342Post_000050,Sounds like Specialist Guerrero’s finally lost his cool.
+David Guerrero,C342Post_000060,"God dammit, I don’t wanna die out here."
+,C342Post_000070,"Fuck, man!"
+Thomas Grail,C342Post_000080,That’s twice now with the F-word.
+Cliff Wells,C342Post_000090,Blasphemy too.
+,C342Post_000100,Watch yourself next time you’re in church…
+David Guerrero,C342Post_000110,Fuck you guys.
+Thomas Grail,C342Post_000120,Three! That’s the spirit.
+Cliff Wells,C342Post_000130,"Yeah, man, keep it up!"
+,C342Post_000140,Be all that you can be.
+,,
+Begin Scene,,C343Post
+Delay,,0.01
+Play Sound,,jeep_enter
+Play Animation Delay,,"1, 39"
+Lou Rapp,C343Post_000000,Load up! We’re pulling out.
+,C343Post_000010,The demolition teams are in place.
+,C343Post_000020,We need to get as far away from them as possible ASAP.
+Play Sound,,jeep_exit
+Play Animation Delay,,"40, 65"
+Play Sound,,"killing_time, loop, 2"
+Thomas Grail,C343Post_000030,Cool. So… we’re going home?
+Cliff Wells,C343Post_000040,Sure looks like it.
+David Guerrero,C343Post_000050,I’ll believe it when I’m there.
+Thomas Grail,C343Post_000060,Miss seeing trees and grass.
+,C343Post_000070,"Hell, I even miss regular brown dirt."
+Cliff Wells,C343Post_000080,"Good news, you can eat as much dirt as you want when we’re back."
+Thomas Grail,C343Post_000090,"Hey, Wells?"
+Cliff Wells,C343Post_000100,"What is it, Grail?"
+Thomas Grail,C343Post_000110,"Eat shit, okay?"
+,,
+Begin Scene,,C351Post
+Play Sound,,"rain_loop, loop, 2"
+Play Sound,,"killing_time, loop, 2"
+Cliff Wells (Final),C351Post_000000,Man. I better be promoted soon.
+,C351Post_000010,After all that shit…
+Thomas Grail (Final),C351Post_000020,I just wanna know why we have to be disinfected every time we patrol the perimeter.
+David Guerrero (Final),C351Post_000030,They don’t know if being close exposes us to something…
+,C351Post_000040,It’s natural they’d want to keep an eye on us.
+Thomas Grail (Final),C351Post_000050,Oh… alien cooties. Got it.
+Cliff Wells (Final),C351Post_000060,You know what’s weird?
+,C351Post_000070,That Trucks is gone.
+Thomas Grail (Final),C351Post_000080,That’s not weird. He had a death wish from day one.
+,C351Post_000090,He got what he wanted.
+Cliff Wells (Final),C351Post_000100,I keep thinking I see him here on base…
+,C351Post_000110,Then I look closer and it’s some other guy.
+,C351Post_000120,"It’s fucked up, ‘cause I don’t miss him."
+David Guerrero (Final),C351Post_000130,"He’s lucky, in a way."
+,C351Post_000140,I’d rather be MIA than stuck on patrol around the gate for the rest of my life.
+Thomas Grail (Final),C351Post_000150,I don't know. Maybe it means he lives on inside you.
+,C351Post_000160,"We’ll always have these memories, you know…"
+,C351Post_000170,And no one can take ‘em from us.
+Cliff Wells (Final),C351Post_000180,"It don’t mean shit, Grail."
+,C351Post_000190,It don’t mean shit.
+Stop Sound,,"rain_loop, 3"
+Stop Sound,,"killing_time, 3"
+Begin Credits,,
+Play Sound,,"tv_loop, loop, 2"
+Play Sound,,"distant_thunder, loop, 2"
+Play Sound,,"scene_omen, loop, 2"
+President Reagan,Credits_000000,My fellow Americans:
+Delay,,0.5
+,Credits_000010,Several weeks ago we were taken by surprise by the appearance of several “dark zones” in the central regions of the United States.
+Delay,,0.5
+,Credits_000020,"Investigating these regions, we encountered an unknown military force that bore a striking resemblance to our own."
+Delay,,0.5
+,Credits_000030,"These forces were actively hostile, and immediately captured large portions of land inside Illinois and Wisconsin."
+Delay,,0.5
+,Credits_000040,"After the eruption of violence, we were able to establish diplomatic channels with representatives of these people,"
+,Credits_000045,which initial reports erroneously described as originating from the Soviet Union.
+Delay,,0.5
+,Credits_000050,"They are not Soviet, or even Russian, but make no mistake:"
+Delay,,0.5
+,Credits_000060,"Though these forces claimed to be from a world similar to our own, they are assuredly not Americans."
+Delay,,0.5
+,Credits_000070,"Though they initially claimed their world was dying due to a changing orbit,"
+,Credits_000075,we soon learned the real reason behind their aggressive and unfounded action.
+Delay,,0.5
+,Credits_000080,They attacked us because their world was ravaged by a type of organism so aggressive and virulent...
+,Credits_000090,"that it must never be allowed on American soil. Not now, and not ever."
+Delay,,0.5
+,Credits_000100,"After recognizing the grave threat that this alien organism posed to our Nation,"
+,Credits_000105,the Joint Chiefs of Staff and I worked to create a plan to protect the country from this new and heretofore unknown danger.
+Delay,,0.5
+,Credits_000110,We had little time and knew that complete secrecy was vital...
+,Credits_000115,to ensure both the safety of the young men who would undertake this mission and the Americans they were about to protect.
+Delay,,0.5
+,Credits_000120,"One week ago today, at thirty-five minutes past seven, Central Time,"
+,Credits_000125,a large contingent of US military forces entered the dark zones and crossed the quantum gates located inside.
+Delay,,0.5
+,Credits_000130,Our troops fought hard to establish a foothold in this strange and unforgiving land.
+Delay,,0.5
+,Credits_000140,"A few days later, engineers from the 1st Army Corps of Engineers placed nuclear charges near the gate generators..."
+,Credits_000145,"and destroyed them irrevocably, sealing that worlds’ fate— and, sadly, their own."
+Delay,,0.5
+,Credits_000150,"I believe those engineers and all those who supported their mission, living and dead, "
+,Credits_000155,have lived up to the very best ideals of what it means to be American.
+Delay,,0.5
+,Credits_000160,"Now we must remain vigilant. In addition to patrols along the perimeter of the former dark zones,"
+,Credits_000170,we also have begun an urgent research and development effort to understand exactly what happened and why.
+Delay,,0.5
+,Credits_000180,"There is no guarantee a similar event couldn’t happen in the future, and, as Vice President Bush has so astutely noted,"
+,Credits_000185,no guarantee that there aren’t thousands of even millions of other worlds out there looking toward ours as a target for conquest.
+Delay,,0.5
+,Credits_000190,"I will not ask you to pray for the dead, because they’re safe in God's loving arms and beyond need of our prayers."
+Delay,,0.5
+,Credits_000200,"I would like to ask you all, wherever you may be in this blessed land, to pray for the young men wounded in this action,"
+,Credits_000205,and to pray for the bereaved families of those who gave their lives to protect this great Nation.
+Delay,,0.5
+,Credits_000210,"God bless you, and God bless America."
+End Credits,,
+,,
+Begin Scene,,Solitaire1
+Play Sound,,"killing_time, loop, 2"
+Thomas Grail,Solitaire1_000000,Whatcha doing?
+Cliff Wells,Solitaire1_000010,What’s it look like?
+Thomas Grail,Solitaire1_000020,"Don’t know, that’s why I asked."
+Cliff Wells,Solitaire1_000030,How ‘bout you give it a try.
+,Solitaire1_000040,See if you can get sixty-one points off this deal.
+,Solitaire1_000050,Bet you a peanut butter packet.
+Thomas Grail,Solitaire1_000060,Don’t want a peanut butter packet.
+Cliff Wells,Solitaire1_000070,You put together hands from playable cards.
+Play Animation,,"2, 2"
+,Solitaire1_000080,You get points for a total of fifteen or thirty-one.
+Play Animation,,"3, 3"
+,Solitaire1_000090,A Jack if you pick it first…
+Play Animation,,"4, 4"
+,Solitaire1_000100,Straights are good.
+Play Animation,,"5, 5"
+,Solitaire1_000105,"Two, three, or four of a kind— even better."
+Play Animation,,"1, 1"
+Thomas Grail,Solitaire1_000110,I’m not gonna remember all this.
+Cliff Wells,Solitaire1_000120,It’s written down over here.
+,Solitaire1_000130,Just try it.
+Thomas Grail,Solitaire1_000140,Fine…
+,,
+Begin Scene,,Solitaire2
+Play Sound,,"killing_time, loop, 2"
+Cliff Wells,Solitaire2_000000,You gotta think about how you put those hands together.
+Thomas Grail,Solitaire2_000010,"Yeah, yeah, yeah, I get it…"
+Cliff Wells,Solitaire2_000020,You sure about that?
+Thomas Grail,Solitaire2_000030,"I did okay, didn’t I?"
+Cliff Wells,Solitaire2_000040,Sure. Just remember to look ahead… you wanna be aware of what cards are coming next.
+,Solitaire2_000050,And don’t be afraid to do a little math.
+Thomas Grail,Solitaire2_000060,"What, do I look like I’m afraid to do a little math?"
+Cliff Wells,Solitaire2_000070,"Kinda, yeah…"
